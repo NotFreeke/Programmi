@@ -1,3 +1,5 @@
+//single player still working progress and control of winner isn't define
+
 #include <iostream>
 #include <time.h>
 #include <stdlib.h> 
@@ -39,7 +41,7 @@ switch(s){
 				do{
 					//messaggio di errore
 					if(c=='v'){
-						cout<<"Inserisci un altro posto "<<g1<<", questo è gia occupato"<<endl<<endl;
+						cout<<"Inserisci un altro posto "<<g1<<", questo Ã¨ gia occupato"<<endl<<endl;
 					}
 					k=0;
 					while(k!=1){
@@ -291,7 +293,7 @@ switch(s){
 				do{
 					//messaggio di errore
 					if(c=='v'){
-						cout<<"Inserisci un altro posto "<<n3<<", questo è gia occupato"<<endl<<endl;
+						cout<<"Inserisci un altro posto "<<n3<<", questo Ã¨ gia occupato"<<endl<<endl;
 					}
 					k=0;
 					while(k!=1){
